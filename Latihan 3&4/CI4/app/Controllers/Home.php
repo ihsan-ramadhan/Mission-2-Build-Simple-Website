@@ -12,8 +12,9 @@ class Home extends BaseController
     {
         echo 'Belajar Routes!';
     }
-    public function tesDb() {
-        $db = db_connect(); // Koneksi ke database berdasarkan konfigurasi
+    public function tesDb() 
+    {
+        $db = db_connect();
         if ($db)
         {
             echo "Koneksi berhasil. Database yang terhubung: " . $db->getDatabase();
@@ -23,6 +24,6 @@ class Home extends BaseController
         {
             echo "Koneksi gagal.";
         }
-        $db->close(); // Tutup koneksi
+        $db->close();
     }
 }
