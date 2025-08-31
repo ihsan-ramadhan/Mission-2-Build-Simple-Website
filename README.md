@@ -6,7 +6,7 @@ Detail konfigurasi dan struktur yang digunakan adalah sebagai berikut:
 ---
 
 ## 🗄️ Database
-- **Nama Database:** `akademik-db`  
+**Nama Database:** `akademik-db`  
   > ⚠️ Perhatikan bahwa nama database menggunakan **tanda hubung (-)**, bukan garis bawah (`_`).
 
 ---
