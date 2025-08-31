@@ -8,4 +8,21 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    public function belajarRoutes() 
+    {
+        echo 'Belajar Routes!';
+    }
+    public function tesDb() {
+        $db = db_connect(); // Koneksi ke database berdasarkan konfigurasi
+        if ($db)
+        {
+            echo "Koneksi berhasil. Database yang terhubung: " . $db->getDatabase();
+            echo "<br>Versi MySQL: " . $db->getVersion();
+        }
+        else
+        {
+            echo "Koneksi gagal.";
+        }
+        $db->close(); // Tutup koneksi
+    }
 }
