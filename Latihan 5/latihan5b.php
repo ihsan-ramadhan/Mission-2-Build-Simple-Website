@@ -43,7 +43,7 @@ $result = $conn->query($sql);
             <?php else: ?>
                 <p>Tidak ada data mahasiswa.</p>
         <?php endif; ?>
-
+    <p><a href="latihan5c.php">ke Manajemen Mahasiswa</a></p>
 </body>
 </html>
 

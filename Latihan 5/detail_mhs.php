@@ -39,7 +39,8 @@ if (isset($_GET['nim'])) {
         <p>Data tidak ditemukan.</p>
     <?php endif; ?>
 
-    <p><a href="latihan5b.php">Kembali ke Daftar</a></p>
+    <p><a href="latihan5b.php">Kembali ke Daftar Mahasiswa</a></p>
+    <p><a href="latihan5c.php">Kembali ke Manajemen Mahasiswa</a></p>
 </body>
 </html>
 <?php
