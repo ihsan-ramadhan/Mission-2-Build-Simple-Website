@@ -9,10 +9,10 @@
         <h1>Daftar Mahasiswa</h1>
         <table border="1" cellpadding="5" cellspacing="0">
             <tr>
-                <td>NIM</td>
-                <td>Nama</td>
-                <td>Umur</td>
-                <td>Aksi</td> </tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Aksi</th> </tr>
             <?php if(!empty($mahasiswa)): ?>
                 <?php foreach($mahasiswa as $m): ?>
                     <tr>
