@@ -1,4 +1,4 @@
-<div class="container">
+<div class="tabel_mhs">
     <h1>Daftar Mahasiswa</h1>
     <table>
         <tr>

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="detail_mhs">
     <h1>Detail Mahasiswa</h1>
     <div class="card">
         <p><strong>NIM:</strong> <?= esc($mahasiswa['nim']) ?></p>
