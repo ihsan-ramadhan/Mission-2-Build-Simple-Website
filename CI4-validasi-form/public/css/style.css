@@ -1,0 +1,158 @@
+/* public/css/style.css */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: #2d3748;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    will-change: transform;
+    transition: transform 0.1s ease;
+}
+
+.container:hover {
+    transform: translateY(-2px);
+}
+
+h1 {
+    text-align: center;
+    color: #1a73e8;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: none;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+}
+
+th {
+    font-weight: 500;
+    color: #2d3748;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+tr {
+    will-change: background-color;
+    transition: background-color 0.1s ease;
+}
+
+tr:hover {
+    background-color: #f0f4ff;
+}
+
+/* Menggabungkan semua link dan tombol ke dalam satu aturan CSS untuk hover animation */
+.detail-link,
+.back-link,
+.action-links a,
+.add-link,
+.btn-submit {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    will-change: background-color, transform;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    font-weight: 500;
+}
+
+.detail-link, .back-link {
+    background-color: #1a73e8;
+}
+
+.action-links .edit-link, .add-link {
+    background-color: #28a745;
+}
+
+.action-links .delete-link {
+    background-color: #dc3545;
+}
+
+.btn-submit {
+    background-color: #1a73e8;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.detail-link:hover, .back-link:hover, .btn-submit:hover {
+    background-color: #1557b0;
+    transform: translateY(-2px);
+}
+
+.action-links .edit-link:hover, .add-link:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.action-links .delete-link:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+    background-color: #f8fafc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+    margin: 12px 0;
+    font-size: 1.1rem;
+    color: #2d3748;
+}
+
+.card p strong {
+    color: #1a73e8;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
